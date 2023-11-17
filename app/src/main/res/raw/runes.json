@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "runes": [
+    {
+      "id": 1,
+      "rune": "ᚠ",
+      "name": "Fehu",
+      "description": "ᚠ Fehu marks the beginning of the runic alphabet and represents wealth, prosperity, and abundance. Its shape resembles cattle, symbolizing the importance of material possessions in the Germanic cultures where the runes originated. In runelore, Fehu signifies the pursuit of material wealth, the importance of hard work and perseverance, and the generosity that comes with abundance. It encourages us to manage our resources wisely, to share our wealth with others, and to appreciate the abundance that surrounds us.",
+      "keywords": ["wealth", "livestock", "fehu", "younger", "futhark", "freya"],
+      "link": "https://en.wikipedia.org/wiki/Fehu"
+    },
+    {
+      "id": 2,
+      "rune": "ᚢ",
+      "name": "Uruz",
+      "description": "ᚢ Uruz embodies the primal power of the aurochs, a wild bull symbolizing strength, courage, and untamed nature. Its shape resembles a horn, evoking the untamed spirit of the aurochs. In runelore, Uruz represents the core strength and resilience that lies within us, enabling us to overcome challenges and pursue our goals with unwavering determination. It encourages us to tap into our inner strength, face adversity head-on, and embrace the wild, untamed spirit that resides within each of us.",
+      "keywords": ["wild ox", "water", "uruz", "ur", "younger", "futhark", "freya"],
+      "link": "https://en.wikipedia.org/wiki/Ur_(rune)"
+    },
+    {
+      "id": 3,
+      "rune": "ᚦ",
+      "name": "Thurisaz",
+      "description": "ᚦ Thurisaz is a rune of challenge, transformation, and defense. Its shape resembles a thorn, symbolizing the obstacles and hardships we may face in life. In runelore, Thurisaz represents the forces of chaos and destruction, but also the potential for growth and transformation that emerges from these challenges. It encourages us to face our fears head-on, to embrace change, and to protect ourselves from harm. Thurisaz is a powerful rune that can help us to navigate the difficult times in our lives and emerge stronger and wiser.",
+      "keywords": ["thor", "giant", "disruption", "freya"],
+      "link": "https://en.wikipedia.org/wiki/Thurisaz"
+    },
+    {
+      "id": 4,
+      "rune": "ᚨ",
+      "name": "Ansuz",
+      "description": "ᚨ Ansuz is associated with the Norse god Odin, who is known for his wisdom, communication, and inspiration. The rune's shape resembles an open mouth, symbolizing the power of words and the importance of communication. In runelore, Ansuz represents knowledge, creativity, and the ability to connect with the divine. It is often seen as a positive rune, encouraging seekers of knowledge to pursue their goals and to use their voices to make a difference in the world. ",
+      "keywords": ["odin", "god", "communication", "wisdom", "freya"],
+      "link": "https://en.wikipedia.org/wiki/Ansuz_(rune)"
+    },
+    {
+      "id": 5,
+      "rune": "ᚱ",
+      "name": "Raido",
+      "description": "ᚱ Raidho embodies the journey, the path we take in life, and the changes we experience along the way. Its shape resembles a chariot or wagon, symbolizing the movement and progress that characterize any journey. In runelore, Raidho represents travel, adventure, and the transformative experiences that arise from embarking on new paths. It encourages us to embrace the unknown, to move forward with courage and determination, and to adapt to the ever-changing landscape of life.",
+      "keywords": ["travel", "mobility", "movement", "rhythm", "journey", "freya"],
+      "link": "https://en.wikipedia.org/wiki/Raido"
+    },
+    {
+      "id": 6,
+      "rune": "ᚲ",
+      "name": "Kenaz",
+      "description": "ᚲ Kaunaz embodies creation, skill, and craftsmanship. Its shape resembles a burning torch, symbolizing the creative spark that ignites new ideas and brings them to life. In runelore, Kaunaz represents the ability to manifest our desires through creative expression, the dedication to honing our skills, and the satisfaction derived from completing a task with mastery. It encourages us to unleash our creativity, to cultivate our talents, and to take pride in the fruits of our labor.",
+      "keywords": ["torch", "burning", "knowledge", "freya"],
+      "link": "https://en.wikipedia.org/wiki/Kaunan"
+    },
+    {
+      "id": 7,
+      "rune": "ᚷ",
+      "name": "Gebo",
+      "description": "ᚷ Gebo embodies partnership, generosity, and the gift-giving spirit. Its shape resembles a gift or offering, symbolizing the exchange of goods and the act of giving freely. In runelore, Gebo represents the importance of connection, the joy of sharing, and the power of reciprocity. It encourages us to cultivate meaningful relationships, to offer our gifts with an open heart, and to cherish the abundance that comes from giving and receiving.",
+      "keywords": ["gift", "equal exchange", "offering", "freya"],
+      "link": "https://en.wikipedia.org/wiki/Gyfu"
+    },
+    {
+      "id": 8,
+      "rune": "ᚹ",
+      "name": "Wunjo",
+      "description": "ᚹ Wunjo embodies harmony, joy, and pleasure. Its shape resembles a branch or twig, symbolizing the interconnectedness that brings joy and fulfillment. In runelore, Wunjo represents the balance between different aspects of life, the appreciation of simple pleasures, and the harmonious relationships that bring contentment. It encourages us to cultivate inner peace, to seek joy in everyday moments, and to cherish the connections that enrich our lives.",
+      "keywords": ["joy", "peace", "bliss", "freya"],
+      "link": "https://en.wikipedia.org/wiki/Wynn"
+    },
+    {
+      "id": 9,
+      "rune": "ᚺ",
+      "name": "Hagalaz",
+      "description": "ᚺ Hagalaz embodies hardship, transformation, and the unexpected. Its shape resembles hailstones, symbolizing the sudden and disruptive forces that can shake our lives. In runelore, Hagalaz represents the challenges and obstacles we face, the forces of chaos that can bring about change, and the potential for growth and transformation that emerges from these trials. It encourages us to face adversity with resilience, to embrace change as an opportunity for growth, and to trust that even in the midst of chaos, there lies the potential for renewal and transformation.",
+      "keywords": ["hail", "disruption", "change", "delay", "heimdall"],
+      "link": "https://en.wikipedia.org/wiki/Haglaz"
+    },
+    {
+      "id": 10,
+      "rune": "ᚾ",
+      "name": "Nauthiz",
+      "description": "ᚾ Nauthiz embodies need, constraint, and sacrifice. Its shape resembles a constrained object, symbolizing the limitations and hardships we may face in life. In runelore, Nauthiz represents the need to adapt to challenges, the willingness to make sacrifices, and the strength that emerges from perseverance. It encourages us to face our limitations with courage, to make choices that align with our true values, and to find resilience in times of adversity.",
+      "keywords": ["need", "necessity", "constraint", "restriction", "heimdall"],
+      "link": "https://en.wikipedia.org/wiki/Naudiz"
+    },
+    {
+      "id": 11,
+      "rune": "ᛁ",
+      "name": "Isa",
+      "description": "ᛁ Isa embodies stillness, reflection, and the power of introspection. Its shape resembles a single point or a halt in movement, symbolizing the pause that allows for deep contemplation. In runelore, Isa represents the importance of inner stillness, the ability to observe our thoughts and emotions without judgment, and the insights that arise from self-reflection. It encourages us to withdraw from the distractions of the external world, to cultivate inner peace, and to seek guidance from the depths of our own consciousness.",
+      "keywords": ["ice", "stasis", "frozen", "frigidity", "solid", "heimdall"],
+      "link": "https://en.wikipedia.org/wiki/Isaz"
+    },
+    {
+      "id": 12,
+      "rune": "ᛃ",
+      "name": "Jera",
+      "description": "ᛃ Jera embodies harvest, completion, and the rewards of hard work. Its shape resembles the cyclical movement of the seasons, symbolizing the culmination of effort and the abundance that follows. In runelore, Jera represents the fruits of labor, the satisfaction of completing a task, and the cyclic nature of life, where endings give way to new beginnings. It encourages us to persevere through challenges, to trust in the process of growth and development, and to celebrate the rewards of our endeavors.",
+      "keywords": ["year", "harvest", "cycle", "boon", "heimdall"],
+      "link": "https://en.wikipedia.org/wiki/J%C4%93ran"
+    },
+    {
+      "id": 13,
+      "rune": "ᛇ",
+      "name": "Eihwaz",
+      "description": "ᛇ Eihwaz embodies protection, defense, and perseverance. Its shape resembles a yew tree, a symbol of strength, stability, and longevity. In runelore, Eihwaz represents the ability to withstand challenges, the resilience to overcome obstacles, and the unwavering determination to achieve one's goals. It encourages us to cultivate inner strength, to maintain a steadfast focus, and to tap into the deep-rooted resilience that lies within us.",
+      "keywords": ["yew", "death", "protection", "heimdall"],
+      "link": "https://en.wikipedia.org/wiki/Eihwaz"
+    },
+    {
+      "id": 14,
+      "rune": "ᛈ",
+      "name": "Perthro",
+      "description": "ᛈ Perthro embodies secrets, the mysteries of the unknown, and the hidden forces that shape our lives. Its shape resembles a hidden or enclosed object, symbolizing the unseen aspects of reality and the potential for hidden truths. In runelore, Perthro represents the mysteries that lie beneath the surface, the transformative power of hidden forces, and the insights that can be gained through intuition and divination. It encourages us to embrace the unknown, to seek out hidden truths, and to trust in the wisdom that arises from the depths of our subconscious.",
+      "keywords": ["cup", "lot", "game", "gaming", "fate", "unknown", "heimdall"],
+      "link": "https://en.wikipedia.org/wiki/Peor%C3%B0"
+    },
+    {
+      "id": 15,
+      "rune": "ᛉ",
+      "name": "Algiz",
+      "description": "ᛉ Algiz embodies protection, defense, and spiritual awareness. Its shape resembles a reed or a protective charm, symbolizing the ability to shield oneself from harm and connect with higher realms of consciousness. In runelore, Algiz represents the intuition that guides us through life's challenges, the connection to divine protection, and the ability to discern the subtle energies that shape our reality. It encourages us to cultivate inner peace, to tap into our intuition, and to seek protection from the unseen forces that surround us.",
+      "keywords": ["elk", "protection", "defense", "heimdall"],
+      "link": "https://en.wikipedia.org/wiki/Algiz"
+    },
+    {
+      "id": 16,
+      "rune": "ᛋ",
+      "name": "Sowilo",
+      "description": "ᛋ Sowilo embodies the sun, victory, and success. Its shape resembles sun rays, symbolizing the radiant energy that brings about clarity, triumph, and fulfillment. In runelore, Sowilo represents the completion of undertakings, the achievement of goals, and the inner power to shine brightly. It encourages us to embrace our individuality, to pursue our dreams with unwavering determination, and to radiate our unique light upon the world.",
+      "keywords": ["victory", "power", "attack", "enlightenment", "sun", "heimdall"],
+      "link": "https://en.wikipedia.org/wiki/Sowil%C5%8D_(rune)"
+    },
+    {
+      "id": 17,
+      "rune": "ᛏ",
+      "name": "Tiwaz",
+      "description": "ᛏ Tiwaz embodies justice, discipline, and leadership. Its shape resembles a spear or an arrow, symbolizing the unwavering pursuit of truth, the courage to face challenges, and the ability to lead with integrity. In runelore, Tiwaz represents the strength to uphold justice, the determination to overcome obstacles, and the wisdom to guide others with fairness and compassion. It encourages us to cultivate inner strength, to act with integrity, and to lead others with vision and purpose.",
+      "keywords": ["discipline", "duty", "responsibility", "justice", "tyr"],
+      "link": "https://en.wikipedia.org/wiki/Tiwaz_(rune)"
+    },
+    {
+      "id": 18,
+      "rune": "ᛒ",
+      "name": "Berkana",
+      "description": "ᛒ Berkano embodies growth, transformation, and new beginnings. Its shape resembles a birch tree, symbolizing the resilience, adaptability, and feminine energy associated with this tree. In runelore, Berkano represents the potential for personal growth, the ability to adapt to change, and the nurturing force that fosters new beginnings. It encourages us to embrace change, to cultivate inner strength and resilience, and to tap into the creative energy that lies within us.",
+      "keywords": ["birch", "tree", "fertility", "beginnings", "healing", "tyr"],
+      "link": "https://en.wikipedia.org/wiki/Berkanan"
+    },
+    {
+      "id": 19,
+      "rune": "ᛖ",
+      "name": "Ehwaz",
+      "description": "ᛖ Ehwaz embodies partnership, loyalty, and harmonious cooperation. Its shape resembles two intertwined branches, symbolizing the strength and resilience that comes from unity and teamwork. In runelore, Ehwaz represents the importance of meaningful connections, the ability to work together effectively, and the shared values that bind individuals together. It encourages us to cultivate harmonious relationships, to support one another through challenges, and to celebrate the achievements that arise from mutual effort.",
+      "keywords": ["partnership", "trust", "loyalty", "cooperation", "motion", "tyr"],
+      "link": "https://en.wikipedia.org/wiki/Ehwaz"
+    },
+    {
+      "id": 20,
+      "rune": "ᛗ",
+      "name": "Mannaz",
+      "description": "ᛗ Mannaz embodies mankind, individuality, and self-awareness. Its shape resembles a man standing with arms outstretched, symbolizing the human spirit, the capacity for thought and insight, and the unique experiences that shape each individual. In runelore, Mannaz represents the power of self-reflection, the ability to connect with our inner selves, and the potential for personal growth and development. It encourages us to cultivate self-awareness, to embrace our individuality, and to recognize our interconnectedness with all of humanity.",
+      "keywords": ["man", "humanity", "tyr"],
+      "link": "https://en.wikipedia.org/wiki/Mannaz"
+    },
+    {
+      "id": 21,
+      "rune": "ᛚ",
+      "name": "Laguz",
+      "description": "ᛚ Laguz embodies flow, intuition, and the unconscious mind. Its shape resembles the flow of water, symbolizing the fluidity, adaptability, and hidden depths of the subconscious. In runelore, Laguz represents the power of intuition, the ability to tap into our inner wisdom, and the transformative power of letting go and surrendering to the flow of life. It encourages us to cultivate inner peace, to trust our intuitive insights, and to embrace the ever-changing currents of life.",
+      "keywords": ["water", "sea", "lake", "ocean", "intuition", "tyr"],
+      "link": "https://en.wikipedia.org/wiki/Laguz"
+    },
+    {
+      "id": 22,
+      "rune": "ᛝ",
+      "name": "Ingwaz",
+      "description": "ᛝ Ingwaz embodies fertility, growth, and abundance. Its shape resembles a seed or a womb, symbolizing the potential for new beginnings, creative expression, and the nurturing power of the feminine. In runelore, Ingwaz represents the ability to bring forth new ideas, the creative spark that ignites innovation, and the abundance that arises from personal growth and development. It encourages us to cultivate creativity, to nurture our passions, and to trust in the process of unfolding possibilities.",
+      "keywords": ["freyr", "male", "masculinity", "seed", "sexuality", "fertility", "ancestry", "tyr"],
+      "link": "https://en.wikipedia.org/wiki/Yngvi#The_Ingwaz_rune"
+    },
+    {
+      "id": 23,
+      "rune": "ᛟ",
+      "name": "Othala",
+      "description": "ᛟ Othala embodies inheritance, legacy, and the culmination of life's journey. Its shape resembles a home or a treasure chest, symbolizing the accumulation of knowledge, experience, and spiritual wealth. In runelore, Othala represents the completion of life cycles, the passing of wisdom and legacy to future generations, and the enduring impact we have on the world. It encourages us to embrace our lineage, to cultivate a sense of purpose, and to leave behind a lasting legacy that enriches the lives of others.",
+      "keywords": ["family", "heritage", "ancestors", "ancestry", "tyr"],
+      "link": "https://en.wikipedia.org/wiki/Othala"
+    },
+    {
+      "id": 24,
+      "rune": "ᛞ",
+      "name": "Dagaz",
+      "description": "ᛞ Dagaz embodies completion, transformation, and the breaking of dawn. Its shape resembles two opposing day and night symbols, symbolizing the transition from darkness to light, the culmination of cycles, and the emergence of new beginnings. In runelore, Dagaz represents the end of one phase and the beginning of another, the transformative power of change, and the potential for renewal and growth. It encourages us to embrace endings as opportunities for new beginnings, to trust in the process of transformation, and to find illumination in the darkest of times.",
+      "keywords": ["day", "dawn", "transformation", "balance", "tyr"],
+      "link": "https://en.wikipedia.org/wiki/Dagaz"
+    }
+  ]
+}
