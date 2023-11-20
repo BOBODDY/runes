@@ -14,7 +14,7 @@ object RuneList {
 }
 
 @Composable
-fun RuneListScreen(viewModel: RunesListViewModel, navController: NavController) {
+fun RuneListScreen(modifier: Modifier = Modifier, viewModel: RunesListViewModel, navController: NavController) {
     val uiState by viewModel.uiStateFlow.collectAsState()
     val runes = uiState.runes
 
@@ -24,18 +24,18 @@ fun RuneListScreen(viewModel: RunesListViewModel, navController: NavController) 
     }
 
     Scaffold(
-        topBar = { TopBar {
-            navController.navigate(AboutScreen.NavRoute)
-        }},
+        modifier = modifier,
         floatingActionButton = { RandomRuneFab(viewModel::getRandomRune) }
-    ) {
+    ) { paddingValues ->
         RuneList(
-            modifier = Modifier.padding(it),
+            modifier = modifier.padding(paddingValues),
             runes = runes.runes,
-            viewModel::search
-        ) {
-            val route = "${RuneScreen.NavRoute}/${it.id}"
-            navController.navigate(route)
-        }
+            viewModel::search,
+            onInfoClick = { navController.navigate(AboutScreen.NavRoute) },
+            onClick = { rune ->
+                val route = "${RuneScreen.NavRoute}/${rune.id}"
+                navController.navigate(route)
+            }
+        )
     }
 }

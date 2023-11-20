@@ -31,9 +31,11 @@ fun RuneList(
     runes: List<Rune>,
     onSearchEntered: (String) -> Unit,
     onClick: (Rune) -> Unit,
+    onInfoClick: () -> Unit,
 ) {
     var searchPhrase by remember { mutableStateOf("") }
     Column {
+        TopBar(modifier = modifier, onInfoClick = { onInfoClick() })
         TextField(
             modifier = modifier
                 .fillMaxWidth()
@@ -66,7 +68,7 @@ private fun RunePreview() {
             modifier = Modifier.fillMaxSize(),
             color = MaterialTheme.colorScheme.background
         ) {
-            RuneList(Modifier, TestData.runes + TestData.runes, {}, {})
+            RuneList(Modifier, TestData.runes + TestData.runes, {}, {}, {})
         }
     }
 }

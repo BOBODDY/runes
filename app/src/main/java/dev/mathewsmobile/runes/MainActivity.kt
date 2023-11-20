@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
                     NavHost(navController = navController, startDestination = RuneList.NavRoute) {
                         composable(RuneList.NavRoute) {
                             val viewModel by viewModels<RunesListViewModel>()
-                            RuneListScreen(viewModel, navController)
+                            RuneListScreen(Modifier, viewModel, navController)
                         }
                         composable(
                             "${RuneScreen.NavRoute}/{runeId}",
