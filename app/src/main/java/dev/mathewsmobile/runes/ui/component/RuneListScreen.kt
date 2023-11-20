@@ -25,10 +25,7 @@ fun RuneListScreen(viewModel: RunesListViewModel, navController: NavController) 
 
     Scaffold(
         topBar = { TopBar {
-            // TODO Create and navigate to new about screen
-//            navController.navigate(HomeScreen.NavRoute) {
-//                popUpTo(HomeScreen.NavRoute) { inclusive = true }
-//            }
+            navController.navigate(AboutScreen.NavRoute)
         }},
         floatingActionButton = { RandomRuneFab(viewModel::getRandomRune) }
     ) {

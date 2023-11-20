@@ -7,16 +7,14 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import dagger.hilt.android.AndroidEntryPoint
+import dev.mathewsmobile.runes.ui.component.AboutScreen
 import dev.mathewsmobile.runes.ui.component.RuneList
 import dev.mathewsmobile.runes.ui.component.RuneListScreen
 import dev.mathewsmobile.runes.ui.component.RuneScreen
@@ -48,6 +46,9 @@ class MainActivity : ComponentActivity() {
                             viewModel.setRune(rune)
 
                             RuneScreen(navController = navController, viewModel = viewModel)
+                        }
+                        composable(AboutScreen.NavRoute) {
+                            AboutScreen(navController = navController)
                         }
                     }
                 }
