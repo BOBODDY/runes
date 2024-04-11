@@ -14,7 +14,6 @@ import javax.inject.Inject
 
 data class RuneListUiState(
     val runes: Runes = Runes(emptyList()),
-    val selectedRune: Rune? = null
 )
 
 @HiltViewModel
@@ -53,11 +52,8 @@ class RunesListViewModel @Inject constructor(
         }
     }
 
-    fun getRandomRune() {
-        viewModelScope.launch {
-            val runes = runeRepository.getRunes()
-            val randomRune = runes?.runes?.random()
-            _uiStateFlow.emit(_uiStateFlow.value.copy(selectedRune = randomRune))
-        }
+    suspend fun getRandomRune(): Rune? {
+        val runes = runeRepository.getRunes()
+        return runes?.runes?.random()
     }
 }

@@ -5,9 +5,11 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
 import dev.mathewsmobile.runes.RunesListViewModel
+import kotlinx.coroutines.launch
 
 object RuneList {
     const val NavRoute = "RuneList"
@@ -18,14 +20,19 @@ fun RuneListScreen(modifier: Modifier = Modifier, viewModel: RunesListViewModel,
     val uiState by viewModel.uiStateFlow.collectAsState()
     val runes = uiState.runes
 
-    uiState.selectedRune?.let {
-        val route = "${RuneScreen.NavRoute}/${it.id}"
-        navController.navigate(route)
-    }
+    val coroutineScope = rememberCoroutineScope()
 
     Scaffold(
         modifier = modifier,
-        floatingActionButton = { RandomRuneFab(viewModel::getRandomRune) }
+        floatingActionButton = {
+            RandomRuneFab {
+                coroutineScope.launch {
+                    val randomRune = viewModel.getRandomRune()
+                    val route = "${RuneScreen.NavRoute}/${randomRune?.id}"
+                    navController.navigate(route)
+                }
+            }
+        }
     ) { paddingValues ->
         RuneList(
             modifier = modifier.padding(paddingValues),
